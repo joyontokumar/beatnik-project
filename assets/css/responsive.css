@@ -1,0 +1,220 @@
+/* ================================================================
+    Author       : Joyonto Kumar Roy
+    Template Name: Team
+    Tags: Landing Page, HTML, One Page 
+    Version      : 1.0.0
+=================================================================*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) {
+	.latest-blog-content.small-latest-blog-content>p {
+		margin-top: 0px;
+		margin-bottom: 3px;
+	}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.main-menu .navbar-header .navbar-toggle {
+		top: -59px;
+	}
+	.company-left-content {
+		width: 50%;
+	}
+	.company-right-content {
+		width: 50%;
+	}
+	.latest-blog-content.small-latest-blog-content>p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.main-menu .navbar-header .navbar-toggle{
+		top: -59px;
+	}
+	.lastest-blog-wrapper {
+		margin-bottom: 72px;
+	}
+	.nav-outer.clearfix {
+		margin-top: 56px;
+	}
+	.single-partnar {
+		padding: 0 40px;
+	}
+	.lastest-blog-wrapper.small-blog-wrapper {
+		width: 50%;
+		float: left;
+		margin-top: 26px;
+		overflow: hidden;
+	}
+	.csr-wrapper-right>a {
+		margin-left: 30px;
+	}
+	.latest-blog-content {
+		padding: 0;
+	}
+	.latest-blog-content.small-latest-blog-content {
+		padding-right: 10px;
+		padding-left: 30px;
+	}
+	.csr-wrapper-left {
+		width: 100%;
+	}
+	.csr-wrapper-right {
+		width: 100%;
+		float: right;
+		padding-right: 24px;
+	}
+	.csr-wrapper-right {
+		width: 100%;
+	}
+	.lastest-blog-wrapper.small-blog-wrapper {
+		width: 100%;
+	}
+	.csr-left-content:before {
+		display: none;
+	}
+	.csr-wrapper-right:after {
+		display: none;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.main-menu .navbar-header .navbar-toggle {
+		top: -59px;
+	}
+	.slider-text.light h1 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.section-title h2 {
+		margin-top: 10px;
+	}
+	.company-left-content {
+		width: 100%;
+	}
+	.widget-wrapper {
+		margin-bottom: 50px;
+	}
+	.company-right-content {
+		width: 100%;
+	}
+	.company-content-upper h3 {
+		margin-bottom: 10px;
+		margin-top: 19px;
+	}
+	.csr-wrapper-left {
+		width: 100%;
+	}
+	.csr-wrapper-right {
+		width: 100%;
+	}
+	.small-blog-wrapper {
+		display: block;
+		margin-bottom: 16px;
+	}
+	.blog-img img {
+		width: 100%;
+	}
+	.csr-left-content:before {
+		display: none;
+	}
+	.csr-wrapper-right:after {
+		display: none;
+	}
+	.csr-wrapper-right {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.latest-blog-content {
+		padding: 25px 17px;
+	}
+}
+@media (min-width: 320px) and (max-width: 575px) {
+	.main-menu .navbar-collapse > .navigation > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li.current > a,
+	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a {
+		color: #ED1C24 !important;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.slider-text.light h1 {
+		font-size: 23px;
+		line-height: 32px;
+	}
+	.slider-content {
+		padding: 0;
+		background: none;
+	}
+	.section-title h2 {
+		margin-top: 22px;
+	}
+	.company-left-content {
+		width: 100%;
+		float: left;
+	}
+	.company-right-content {
+		overflow: hidden;
+		width: 100%;
+		float: left;
+	}
+	.comapany-name {
+		position: relative;
+	}
+	.company-content-upper {
+		padding-top: 8px;
+	}
+	.blog-img img {
+		width: 100%;
+	}
+	.small-blog-wrapper {
+		display: block;
+	}
+	.csr-wrapper-left {
+		width: 100%;
+	}
+	.main-menu .navbar-header .navbar-toggle {
+		top: -59px;
+	}
+	.csr-wrapper-right {
+		width: 100%;
+		position: relative;
+		padding: 0;
+	}
+	.csr-left-content:before {
+		display: none;
+	}
+	.csr-wrapper-right:after {
+		display: none;
+	}
+	.csr-left-content {
+		position: relative;
+		margin-bottom: 33px;
+	}
+	.latest-blog-content.small-latest-blog-content {
+		padding-right: 0;
+		padding: 20px 10px;
+	}
+	.latest-blog-content {
+		margin-bottom: 30px;
+	}
+	.widget-wrapper {
+		margin-bottom: 50px;
+	}
+
+
+}
